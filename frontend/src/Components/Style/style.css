@@ -1,0 +1,51 @@
+.bannerSec .banner_img img {
+    width: 100%;
+}
+.bannerSec .banner-content h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.bannerSec .banner-content p {
+    font-size: 18px;
+}
+.bannerSec .banner-content .buttons {
+    display: flex;
+    column-gap: 20px;
+}
+.BannerButton {
+    background-color: #003366;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: box-shadow .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 0;
+}
+
+.BannerButton:hover {
+  box-shadow: #FF9416 0 0 0 3px, transparent 0 0 0 0;
+}
+section.bannerSec {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+section.bannerSec::before {
+    content: "";
+    background-image: url(http://localhost:3000/static/media/wawe.06e0d5f1e153f35889de.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-position: right;
+}
