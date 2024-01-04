@@ -13,7 +13,7 @@
     display: flex;
     column-gap: 20px;
 }
-.BannerButton {
+.MainButton {
     background-color: #003366;
     border-radius: 12px;
     box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
@@ -28,7 +28,7 @@
     border: 0;
 }
 
-.BannerButton:hover {
+.MainButton:hover {
   box-shadow: #FF9416 0 0 0 3px, transparent 0 0 0 0;
 }
 section.bannerSec {
@@ -38,7 +38,7 @@ section.bannerSec {
 }
 section.bannerSec::before {
     content: "";
-    background-image: url(http://localhost:3000/static/media/wawe.06e0d5f1e153f35889de.svg);
+    background-image: url("../../images/wawe.svg");
     position: absolute;
     top: 0;
     left: 0;
@@ -48,4 +48,121 @@ section.bannerSec::before {
     background-size: cover;
     z-index: -1;
     background-position: right;
+}
+
+.upSkillSec .upSkillImg img {
+    width: 70%;
+    height: auto;
+}
+
+.headings{
+    font-size: 30px;
+    font-weight: 700;
+}
+.upSkillSec .upSkillCon p{
+    font-size: 20px;
+}
+.CourseSlide .owl-stage-outer {
+    padding-bottom: 30px;
+}
+.courseCard {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.courseCard .imgCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.courseCard .conCard h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.courseCard .conCard {
+    padding: 15px 15px;
+}
+
+.courseCard .conCard p {
+    font-size: 10px;
+}
+
+.courseCard .conCard ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+
+.courseCard .conCard li {
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+}
+
+.courseCard .conCard li h6 {
+    font-size: 13px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.courseCard .conCard li span {
+    font-size: 11px;
+}
+
+
+.CTA_Section {
+    background-image: url("../../images/CTA_Img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-attachment: fixed;
+    position: relative;
+}
+.CTA_Section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006b;
+}
+.CTA_Section .CTA_Content {
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.CTA_Section .CTA_Content h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.CTA_Section .CTA_Content p {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+
+/* client logo */
+section.client-section {
+    padding: 50px 0;
+}
+.client-section .item img {
+    padding: 10px;
+    background-color: #d8d8d8;
+    opacity: 0.8;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.client-section .item img:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }

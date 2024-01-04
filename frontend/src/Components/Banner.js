@@ -12,8 +12,8 @@ const Banner = () => {
                             <h3>Learn Explore Upskill</h3>
                             <p>Hack2skill is the largest and fastest-growing community of technology innovators, including startups, working professionals, freelancers, and student innovators.</p>
                             <div className="buttons">
-                                <button class="BannerButton"  type='button'>Explore Hackathon</button>
-                                <button class="BannerButton"  type='button'>Organize Hackathon</button>
+                                <button class="MainButton"  type='button'>Explore Hackathon</button>
+                                <button class="MainButton"  type='button'>Organize Hackathon</button>
                             </div>
                         </div>
                     </div>
