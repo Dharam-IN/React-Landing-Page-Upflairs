@@ -79,6 +79,10 @@ section.bannerSec::before {
     background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+section.CourseSlide {
+  padding: 50px 0;
+}
 .courseCard .imgCard img {
     width: 100%;
     height: 200px;
@@ -606,6 +610,9 @@ section.TopCourse {
 .TopCourse .CourseCard .ReadAuthor .ReadMore button:hover{
   border-color:#ff9416 !important;
 }
+section.EventSection {
+  padding: 50px 0;
+}
 
 /* Who Can Join */
 section.WhoJoinSec {
@@ -613,3 +620,298 @@ section.WhoJoinSec {
   padding: 50px 0;
   color: #fff;
 }
+.WhoJoinSec .WhoJoinCard img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.WhoJoinSec .WhoJoinCard {
+  text-align: center;
+  border: 1px solid;
+  padding: 20px;
+}
+
+.WhoJoinSec .WhoJoinCard h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.WhoJoinSec .WhoJoinCard p {
+  font-size: 14px;
+}
+
+/* Register fees */
+.RegisterFeesSec {
+  padding: 50px 0;
+  background: #d7e8f94a;
+}
+.RegisterFeesSec .RegisterCol ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  column-gap: 40px;
+  margin: 0;
+  justify-content: center;
+}
+.RegisterFeesSec .RegisterCol ul li p {
+  margin: 0;
+  font-size: 30px;
+  position: relative;
+  font-weight: 800;
+}
+.RegisterFeesSec .RegisterCol ul li p.freeFees {
+  color: #08ee08;
+}
+.RegisterFeesSec .RegisterCol ul li p.fees::before {
+  top: 50%;
+  background: red;
+  opacity: .7;
+  content: '';
+  width: 110%;
+  position: absolute;
+  height: 8px;
+  border-radius: .1em;
+  left: -5%;
+  white-space: nowrap;
+  display: block;
+  transform: rotate(-15deg);
+}
+.RegisterFeesSec .RegisterCol ul li p.fees::after {
+  top: 50%;
+  background: red;
+  opacity: .7;
+  content: '';
+  width: 110%;
+  position: absolute;
+  height: 8px;
+  border-radius: .1em;
+  left: -5%;
+  white-space: nowrap;
+  display: block;
+  transform: rotate(17deg);
+}
+
+/* Upcoming Masterclass */
+section.UpcomingMasterclass {
+  background: #fff;
+  background-image: radial-gradient(#999 5%, transparent 0);
+  background-size: 35px 35px;
+  padding: 50px 0;
+}
+.UpcomingMasterclass .UpMasCon h4 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 53px;
+}
+
+.UpcomingMasterclass .UpMasCon {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.UpcomingMasterclass .UpMasCon h4 b {
+  text-transform: uppercase;
+  font-weight: 900;
+  display: block;
+}
+.UpcomingMasterclass .UpMasBtns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.UpcomingMasterclass .UpMasBtns .ICNBTNS {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  background: #003366;
+  width: 50%;
+  padding: 10px;
+  border-radius: 11px;
+  color: #fff;
+  border: none;
+}
+
+.UpcomingMasterclass .UpMasBtns .ICNBTNS h6 {
+  margin: 0;
+}
+
+.UpcomingMasterclass .UpMasBtns .ICNBTNS i {
+  color: #ff9416;
+}
+
+/* FUTURE MASTER CLASS */
+.FutureMasterSec{
+  padding: 50px 0 0;
+}
+.event-calendar *,
+.event-calendar div
+{
+  -webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+
+.event-calendar {
+  border: 1px solid #d7e8f94a;
+  width: 100%;
+  min-width: 300px;
+  background: #d7e8f94a;
+}
+
+.event-calendar a {
+  text-decoration:none;
+  color:#181718;
+  transition: all 0.3s ease;
+}
+.event-calendar a:hover {
+  opacity:.7;
+  color: #ff9416;
+}
+
+.event-calendar a:hover .title-event {
+  transform:translate(5%,0);
+  -webkit-transform:translate(5%,0);
+  -moz-transform:translate(5%,0);
+  
+}
+
+
+
+.event-calendar ul,
+.event-calendar ul li,
+.event-calendar h1,
+.event-calendar h2
+{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.event-calendar .events-body ul li {
+  position:relative;
+   border-bottom:1px solid #777474;
+}
+.event-calendar .events-body ul li:last-child {
+  border:0;
+}
+
+.event-calendar .heading-title {
+  padding:10px 20px;
+  text-transform:uppercase;
+  border-bottom:4px solid #000;
+  font-size:.9em;
+  position:relative;
+}
+
+.event-calendar .icon-box {
+  position:absolute;
+  right:20px;
+  top:0;
+  bottom:0;
+  margin:auto;
+  height:30px;
+  font-size:1.8em;
+}
+
+/* EVENTS LEFT CONTES */
+.event-calendar .event-left-content {
+  padding:15px 20px;
+}
+
+.event-calendar .event-left-content .title-event {
+  width:80%;
+}
+
+.event-calendar .event-left-content .title-event h2 {
+  text-transform:uppercase;
+  margin:0;
+  padding:0;
+}
+
+.event-calendar .event-left-content .event-date {
+  font-size:.8em;
+}
+
+.event-calendar .event-left-content .event-location {
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:.8em;
+}
+
+
+/* EVENT ICON HOLDER  */
+.event-calendar .event-icon{
+  position:absolute;
+  width:auto;
+  height:fit-content;
+  display:block;
+  background:#ff9416;
+  right:20px;
+  top:0;
+  bottom:0;
+  margin:auto;
+  text-align:center;
+  color:#fff;
+  
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  
+  padding:2px 10px;
+    
+}
+
+.event-calendar .event-icon .month,
+.event-calendar .event-icon .date {
+  display:block;
+}
+
+.event-calendar .event-icon .month {
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:1.1em;
+  margin-top:5px
+}
+
+.event-calendar .event-icon .date {
+  font-size:1.1em;
+  font-weight:bold;
+  
+}
+.event-calendar .heading-title h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.event-calendar .event-left-content .title-event h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* FOR RESPONSIVE ONLY  */
+@media only screen and (max-width:480px) {
+  .event-calendar {
+    width:100%;
+    margin:0;
+  }
+  .event-calendar .heading-title h1 {
+    font-size:1em;
+  }
+  
+  .event-calendar .title-event h2 {
+    font-size:.9em;
+  }
+  
+  .event-calendar .event-left-content .event-date,
+  .event-calendar .event-left-content .event-location {
+    font-size:.8em;
+  }
+  
+  
+}
+
+
+/* RESPONSIVE */

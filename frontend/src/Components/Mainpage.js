@@ -11,7 +11,9 @@ import event4 from '../images/event_4.jpg';
 import testi1 from '../images/Testimonial_1.jpeg';
 import TopCourse1 from '../images/web-dev.jpg';
 import Teacher1 from '../images/teacher1.jpeg';
-import fresher from '../images/fresher.png';
+import fresher from '../images/fresher1.png';
+import student from '../images/student.png';
+import employee from '../images/employee.png';
 import { NavLink } from "react-router-dom";
 
 const Mainpage = () => {
@@ -32,6 +34,35 @@ const Mainpage = () => {
                                 <h4 className="headings borderNone">Upskill with Hack2skill</h4>
                                 <p>Upflairs Advanced Skill Development Program, offering the Best in segment curriculum to help you in becoming a Pro with Live Project Exposure.</p>
                                 <button class="MainButton" type='button'>Start Your Journy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            {/* Register Fees */}
+            <section className="RegisterFeesSec">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 className="headings text-center">Online Webinar Fees</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="RegisterCol">
+                                <ul>
+                                    <li>
+                                        <p className="fees">Fees = 1099</p>
+                                    </li>
+                                    <li>
+                                        <p className="freeFees">Free</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="RegisterFeesBtn text-center mt-5">
+                                <button type="button" className="MainButton">Register For Online Masterclass</button>
                             </div>
                         </div>
                     </div>
@@ -333,6 +364,41 @@ const Mainpage = () => {
                 </div>
             </section>
 
+            {/* Upcoming Masterclass */}
+            <section className="UpcomingMasterclass">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 className="headings text-center">Upcoming Masterclass</h2>
+                        </div>
+                    </div>
+                    <div className="row align-items-center">
+                        <div className="col-md-6 col-12">
+                            <div className="UpMasCon">
+                                <h4>Register For <b>Superfast Author</b> Masterclass</h4>
+                                <button type="button" className="MainButton">Register Now</button>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="UpMasBtns">
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <h6>Saturday | 13 Jan 2024</h6>
+                                </button>
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <h6>10 AM IST (India)</h6>
+                                </button>
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-video"></i>
+                                    <h6>Google Meet</h6>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Who Can Join */}
             <section className="WhoJoinSec">
                 <div className="container">
@@ -344,9 +410,151 @@ const Mainpage = () => {
                     <div className="row">
                         <div className="col-md-4 col-12">
                             <div className="WhoJoinCard">
+                                <img src={student} alt="icon" />
+                                <h4>Student</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto molestias aut unde animi earum accusamus culpa quidem neque similique quis voluptate quam, eos nobis officia rerum repellendus nulla dolor?</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12">
+                            <div className="WhoJoinCard">
                                 <img src={fresher} alt="icon" />
                                 <h4>Fresher</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto molestias aut unde animi earum accusamus culpa quidem neque similique quis voluptate quam, eos nobis officia rerum repellendus nulla dolor?</p>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-12">
+                            <div className="WhoJoinCard">
+                                <img src={employee} alt="icon" />
+                                <h4>Employee</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto molestias aut unde animi earum accusamus culpa quidem neque similique quis voluptate quam, eos nobis officia rerum repellendus nulla dolor?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FUTURE MASTER CLASS */}
+            <section className="FutureMasterSec">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 className="headings text-center">Future Masterclass</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="event-calendar">
+                                <div className="heading-title">
+                                    <h2> upcoming events </h2>
+                                    <div className="icon-box">
+                                        <i className="fas fa-calendar-alt" />
+                                    </div>
+                                </div>
+                                <div className="events-body">
+                                    <ul>
+                                        <li>
+                                            <NavLink to={"/"}>
+                                                <div className="event-left-content">
+                                                    <div className="title-event">
+                                                        <h2>Full Stack Masterclass</h2>
+                                                        <div className="event-date"> Feb 5, 2024</div>
+                                                        <div className="event-location">Jaipur</div>
+                                                    </div>
+                                                </div>
+                                                <div className="event-icon">
+                                                    <div className="month">Feb </div>
+                                                    <div className="date">05 </div>
+                                                </div>
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to={"/"}>
+                                                <div className="event-left-content">
+                                                    <div className="title-event">
+                                                        <h2>DevOps Masterclass</h2>
+                                                        <div className="event-date"> Feb 10, 2024</div>
+                                                        <div className="event-location"> Jaipur</div>
+                                                    </div>
+                                                </div>
+                                                <div className="event-icon">
+                                                    <div className="month">Feb </div>
+                                                    <div className="date">10 </div>
+                                                </div>
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink to={"/"}>
+                                                <div className="event-left-content">
+                                                    <div className="title-event">
+                                                        <h2>Machine Learning & AI Masterclass</h2>
+                                                        <div className="event-date"> Feb 15, 2024</div>
+                                                        <div className="event-location"> Jaipur</div>
+                                                    </div>
+                                                </div>
+                                                <div className="event-icon">
+                                                    <div className="month">Feb </div>
+                                                    <div className="date">15 </div>
+                                                </div>
+                                            </NavLink>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* OUR EVENT */}
+            <section className="EventSection">
+                <div className="container">
+                    <div className="row">
+                        <h2 className="text-center headings">
+                            Unveiling Unforgettable Moments
+                        </h2>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="EventImgCol">
+                                <ul id="hexGrid">
+                                    <li class="hex">
+                                        <div class="hexIn">
+                                            <img src={event1} alt="event image" />
+                                        </div>
+                                    </li>
+                                    <li class="hex">
+                                        <div class="hexIn">
+                                            <img src={event2} alt="event image" />
+                                        </div>
+                                    </li>
+                                    <li class="hex">
+                                        <div class="hexIn">
+                                            <img src={event3} alt="event image" />
+                                        </div>
+                                    </li>
+                                    <li class="hex">
+                                        <div class="hexIn">
+                                            <img src={event4} alt="event image" />
+                                        </div>
+                                    </li>
+                                    <li class="hex">
+                                        <div class="hexIn">
+                                            <img src={event1} alt="event image" />
+                                        </div>
+                                    </li>
+                                    <li class="hex">
+                                        <div class="hexIn">
+                                            <img src={event2} alt="event image" />
+                                        </div>
+                                    </li>
+                                    <li class="hex">
+                                        <div class="hexIn">
+                                            <img src={event3} alt="event image" />
+                                        </div>
+                                    </li>
+
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -404,61 +612,6 @@ const Mainpage = () => {
                                         alt="client-logo"
                                     />
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* OUR EVENT */}
-            <section className="EventSection">
-                <div className="container">
-                    <div className="row">
-                        <h2 className="text-center headings">
-                            Unveiling Unforgettable Moments
-                        </h2>
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="EventImgCol">
-                                <ul id="hexGrid">
-                                    <li class="hex">
-                                        <div class="hexIn">
-                                            <img src={event1} alt="event image" />
-                                        </div>
-                                    </li>
-                                    <li class="hex">
-                                        <div class="hexIn">
-                                            <img src={event2} alt="event image" />
-                                        </div>
-                                    </li>
-                                    <li class="hex">
-                                        <div class="hexIn">
-                                            <img src={event3} alt="event image" />
-                                        </div>
-                                    </li>
-                                    <li class="hex">
-                                        <div class="hexIn">
-                                            <img src={event4} alt="event image" />
-                                        </div>
-                                    </li>
-                                    <li class="hex">
-                                        <div class="hexIn">
-                                            <img src={event1} alt="event image" />
-                                        </div>
-                                    </li>
-                                    <li class="hex">
-                                        <div class="hexIn">
-                                            <img src={event2} alt="event image" />
-                                        </div>
-                                    </li>
-                                    <li class="hex">
-                                        <div class="hexIn">
-                                            <img src={event3} alt="event image" />
-                                        </div>
-                                    </li>
-
-                                </ul>
                             </div>
                         </div>
                     </div>
