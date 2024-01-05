@@ -61,7 +61,7 @@ const Mainpage = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="RegisterFeesBtn text-center mt-5">
+                            <div className="RegisterFeesBtn text-center">
                                 <button type="button" className="MainButton">Register For Online Masterclass</button>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ const Mainpage = () => {
                             <h2 class="headings text-center">Top Courses</h2>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row gy-4">
                         <div className="col-md-4 col-sm-6 col-12">
                             <div className="CourseCard">
                                 <div className="top">
@@ -372,7 +372,7 @@ const Mainpage = () => {
                             <h2 className="headings text-center">Upcoming Masterclass</h2>
                         </div>
                     </div>
-                    <div className="row align-items-center">
+                    <div className="row align-items-center gy-4">
                         <div className="col-md-6 col-12">
                             <div className="UpMasCon">
                                 <h4>Register For <b>Superfast Author</b> Masterclass</h4>
@@ -407,7 +407,7 @@ const Mainpage = () => {
                             <h2 class="headings text-center">Who Can Join</h2>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row gy-4">
                         <div className="col-md-4 col-12">
                             <div className="WhoJoinCard">
                                 <img src={student} alt="icon" />

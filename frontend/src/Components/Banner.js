@@ -7,7 +7,7 @@ const Banner = () => {
         <section className='bannerSec'>
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-md-6 col-12">
+                    <div className="col-lg-6 col-12">
                         <div className="banner-content">
                             <h3>Learn Explore Upskill</h3>
                             <p>Hack2skill is the largest and fastest-growing community of technology innovators, including startups, working professionals, freelancers, and student innovators.</p>
@@ -17,7 +17,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-12">
+                    <div className="col-lg-6 col-12">
                         <div className="banner_img">
                             <img src={bannerImg} alt="image" />
                         </div>

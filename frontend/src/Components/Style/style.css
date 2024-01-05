@@ -62,7 +62,7 @@ section.bannerSec::before {
     position: relative;
 }
 .borderNone{
-    margin: 0;
+    margin: 0 !important;
 }
 .borderNone::before{
     display: none;
@@ -725,6 +725,7 @@ section.UpcomingMasterclass {
   display: flex;
   column-gap: 10px;
   justify-content: center;
+  align-items: center;
   background: #003366;
   width: 50%;
   padding: 10px;
@@ -913,5 +914,146 @@ transition: all 0.3s ease;
   
 }
 
+section.RegisterFeesSec .RegisterFeesBtn {
+  margin-top: 40px;
+}
+
 
 /* RESPONSIVE */
+@media screen and (max-width: 992px){
+  section.bannerSec::before{
+    height: 130%;
+  }
+  .bannerSec .banner_img {
+    display: none;
+  }
+  section.bannerSec{
+    height: 300px;
+  }
+  .bannerSec .banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+  }
+  .headings {
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  .upSkillSec .upSkillCon p {
+    font-size: 15px;
+  }
+  .MainButton {
+    font-size: 15px;
+    padding: 9px 15px;
+  }
+  .RegisterFeesSec .RegisterCol ul li p{
+    font-size: 25px;
+  }
+  section.RegisterFeesSec .RegisterFeesBtn {
+    margin-top: 30px;
+  }
+  .RegisterFeesSec {
+    padding: 30px 0;
+  }
+  section.CourseSlide {
+    padding: 30px 0;
+  }
+  section.CTA_Section {
+    padding: 60px 0;
+  }
+  section.TopCourse {
+    padding: 30px 0;
+  }
+  .UpcomingMasterclass .UpMasCon h4 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .UpcomingMasterclass .UpMasCon {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .UpcomingMasterclass .UpMasBtns .ICNBTNS{
+    width: 80%;
+  }
+  section.client-section {
+    padding: 30px 0;
+    margin-bottom: 30px;
+  }
+  section.CounSec {
+    margin: 50px 0 0;
+  }
+  .TestimonialDiv {
+    padding: 64px 40px 30px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  section.upSkillSec {
+    margin-bottom: 40px;
+  }
+  .upSkillSec .upSkillImg img {
+    width: 40%;
+  }
+  .RegisterFeesSec .RegisterCol ul li p.fees::before, .RegisterFeesSec .RegisterCol ul li p.fees::after{
+    height: 5px;
+  }
+  .TopCourse .CourseCard .author {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .TopCourse .CourseCard .name {
+    font-size: 13px;
+  }
+  .TopCourse .CourseCard .author .profile {
+    width: 30px;
+    height: 30px;
+  }
+  .TopCourse .CourseCard .ReadAuthor .ReadMore button {
+    font-size: 12px;
+  }
+  section.EventSection {
+    padding: 30px 0;
+  }
+  .CounSec .countDiv h2 {
+    font-size: 25px;
+  }
+  .CounSec .countDiv i {
+    font-size: 25px;
+  }
+  .CounSec .countDiv h4 {
+    font-size: 20px;
+  }
+  .CounSec .CountRow {
+    flex-wrap: wrap;
+  }
+  .CounSec .CountRow .countDivfirst {
+    width: 50%;
+  }
+  .CounSec .countDiv {
+    padding: 30px 0;
+  }
+  .TestimonialDiv p.testimonial_quotes {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .testimonial_avatar {
+    width: 76px !important;
+    height: 76px;
+    top: -33px;
+  }
+  .event-calendar .heading-title h2 {
+    font-size: 20px;
+  }
+  .event-calendar .event-left-content .title-event h2 {
+    font-size: 16px;
+  }
+  .event-calendar .event-icon .month {
+    font-size: 13px;
+  }
+  .event-calendar .event-icon .date {
+    font-size: 13px;
+  }
+}
