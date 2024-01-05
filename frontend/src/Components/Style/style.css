@@ -159,7 +159,9 @@ section.bannerSec::before {
 
 /* client logo */
 section.client-section {
-    padding: 50px 0;
+  padding: 50px 0;
+  background-color: #d7e8f94a;
+  margin-bottom: 50px;
 }
 .client-section .item img {
     padding: 10px;
@@ -455,4 +457,159 @@ section.client-section {
     line-height: 26px;
     margin-top: 10px;
   }
+}
+
+
+/* COUNTER CSS */
+section.CounSec {
+  background-color: #003366;
+  margin: 80px 0 0;
+  color: #fff;
+  width: 100%;
+}
+.CounSec .countDiv {
+  padding: 50px 0;
+}
+.CounSec .countDiv:hover{
+  background-color: #002142;
+}
+.CounSec .countDiv h4 {
+  margin: 0;
+}
+.CounSec .CountRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
+
+.CounSec .CountRow .countDivfirst {
+  width: 25%;
+  text-align: center;
+}
+.CounSec .countDiv i {
+  font-size: 35px;
+}
+
+.CounSec .countDiv h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 11px 0 10px 0;
+}
+
+.CounSec .countDiv h4 {
+  font-size: 25px;
+}
+
+/* Top Course */
+section.TopCourse {
+  padding: 50px 0;
+}
+.TopCourse .CourseCard {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+}
+.TopCourse .CourseCard .top img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.TopCourse .CourseCard .category {
+  background-color: #ff9416;
+  color: aliceblue;
+  font-size: 12px;
+  position: absolute;
+  top: 17px;
+  left: -12px;
+  padding: 4px 10px;
+  margin: 0;
+}
+.TopCourse .CourseCard .category::before {
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 12px 12px 0;
+  border-color: transparent #ecb41c transparent transparent;
+}
+.TopCourse .CourseCard .intro {
+  font-size: 15px;
+}
+.TopCourse .CourseCard .bottom {
+  padding: 15px;
+}
+
+.TopCourse .CourseCard .bottom h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.TopCourse .CourseCard .author {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.TopCourse .CourseCard .author .profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.TopCourse .CourseCard .author .profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+.TopCourse .CourseCard .name {
+  margin: 0;
+  font-size: 15px;
+}
+.TopCourse .CourseCard .name a {
+  font-weight: 400;
+  color: #ff9416;
+  text-decoration: none;
+}
+
+.TopCourse .CourseCard .info ul {
+  display: flex;
+  color: #999;
+  font-size: 14px;
+  margin-top: 8px;
+  list-style: none;
+  padding: 0;
+  column-gap: 20px;
+}
+.TopCourse .CourseCard .info ul li span {
+  padding-left: 6px;
+}
+.TopCourse .CourseCard .ReadAuthor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TopCourse .CourseCard .ReadAuthor .ReadMore button {
+  background-color: #003366;
+  border: 2px solid #003366;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.TopCourse .CourseCard .ReadAuthor .ReadMore button:hover{
+  border-color:#ff9416 !important;
+}
+
+/* Who Can Join */
+section.WhoJoinSec {
+  background-color: #003366;
+  padding: 50px 0;
+  color: #fff;
 }

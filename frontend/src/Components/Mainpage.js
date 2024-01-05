@@ -9,6 +9,10 @@ import event2 from '../images/event_2.jpeg';
 import event3 from '../images/event_3.jpg';
 import event4 from '../images/event_4.jpg';
 import testi1 from '../images/Testimonial_1.jpeg';
+import TopCourse1 from '../images/web-dev.jpg';
+import Teacher1 from '../images/teacher1.jpeg';
+import fresher from '../images/fresher.png';
+import { NavLink } from "react-router-dom";
 
 const Mainpage = () => {
     return (
@@ -20,7 +24,7 @@ const Mainpage = () => {
                     <div className="row align-items-center">
                         <div className="col-md-6 col-12">
                             <div className="upSkillImg">
-                                <img src={upSkillImg} alt="image" />
+                                <img src={upSkillImg} alt="images" />
                             </div>
                         </div>
                         <div className="col-md-6 col-12">
@@ -190,6 +194,165 @@ const Mainpage = () => {
                 </div>
             </section>
 
+            {/* Top Course */}
+            <section className="TopCourse">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 class="headings text-center">Top Courses</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-4 col-sm-6 col-12">
+                            <div className="CourseCard">
+                                <div className="top">
+                                    <img src={TopCourse1} alt="images" />
+                                    <p className="category">Top Selling</p>
+                                </div>
+                                <div className="bottom">
+                                    <h2>
+                                        Full Stack Development
+                                    </h2>
+                                    <p className="intro">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                        consectetur mauris sed mauris sagittis, nec pretium metus posuere.{" "}
+                                    </p>
+                                    <div className="info">
+                                        <ul>
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>2 Days Ago</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-comment"></i>
+                                                <span>16 Comments</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="ReadAuthor">
+                                        <div className="author">
+                                            <div className="profile" >
+                                                <img src={Teacher1} alt="teacher" />
+                                            </div>
+                                            <p className="name">
+                                                By <NavLink to={'/'}>Suzan Hill</NavLink>
+                                            </p>
+                                        </div>
+                                        <div className="ReadMore">
+                                            <button type="button">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-6 col-12">
+                            <div className="CourseCard">
+                                <div className="top">
+                                    <img src={TopCourse1} alt="images" />
+                                    <p className="category">Top Selling</p>
+                                </div>
+                                <div className="bottom">
+                                    <h2>
+                                        Full Stack Development
+                                    </h2>
+                                    <p className="intro">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                        consectetur mauris sed mauris sagittis, nec pretium metus posuere.{" "}
+                                    </p>
+                                    <div className="info">
+                                        <ul>
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>2 Days Ago</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-comment"></i>
+                                                <span>16 Comments</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="ReadAuthor">
+                                        <div className="author">
+                                            <div className="profile" >
+                                                <img src={Teacher1} alt="teacher" />
+                                            </div>
+                                            <p className="name">
+                                                By <NavLink to={'/'}>Suzan Hill</NavLink>
+                                            </p>
+                                        </div>
+                                        <div className="ReadMore">
+                                            <button type="button">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-6 col-12">
+                            <div className="CourseCard">
+                                <div className="top">
+                                    <img src={TopCourse1} alt="images" />
+                                    <p className="category">Top Selling</p>
+                                </div>
+                                <div className="bottom">
+                                    <h2>
+                                        Full Stack Development
+                                    </h2>
+                                    <p className="intro">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                                        consectetur mauris sed mauris sagittis, nec pretium metus posuere.{" "}
+                                    </p>
+                                    <div className="info">
+                                        <ul>
+                                            <li>
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>2 Days Ago</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-comment"></i>
+                                                <span>16 Comments</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="ReadAuthor">
+                                        <div className="author">
+                                            <div className="profile" >
+                                                <img src={Teacher1} alt="teacher" />
+                                            </div>
+                                            <p className="name">
+                                                By <NavLink to={'/'}>Suzan Hill</NavLink>
+                                            </p>
+                                        </div>
+                                        <div className="ReadMore">
+                                            <button type="button">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Who Can Join */}
+            <section className="WhoJoinSec">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 class="headings text-center">Who Can Join</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-4 col-12">
+                            <div className="WhoJoinCard">
+                                <img src={fresher} alt="icon" />
+                                <h4>Fresher</h4>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto molestias aut unde animi earum accusamus culpa quidem neque similique quis voluptate quam, eos nobis officia rerum repellendus nulla dolor?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* OUR CLIENT */}
             <section className="client-section ">
                 <div className="container">
@@ -297,6 +460,40 @@ const Mainpage = () => {
 
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Counter Section */}
+            <section className="CounSec">
+                <div className="CountRow">
+                    <div className="countDivfirst">
+                        <div className="countDiv">
+                            <i class="fa-solid fa-users"></i>
+                            <h2 data-max={1500}>+</h2>
+                            <h4>Happy Student</h4>
+                        </div>
+                    </div>
+                    <div className="countDivfirst">
+                        <div className="countDiv">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <h2 data-max={15}>+</h2>
+                            <h4>Teachers</h4>
+                        </div>
+                    </div>
+                    <div className="countDivfirst">
+                        <div className="countDiv">
+                            <i class="fa-solid fa-list-check"></i>
+                            <h2 data-max={10}>+</h2>
+                            <h4>Projects</h4>
+                        </div>
+                    </div>
+                    <div className="countDivfirst">
+                        <div className="countDiv">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h2 data-max={30} id="test">+</h2>
+                            <h4>Developers</h4>
                         </div>
                     </div>
                 </div>
@@ -533,6 +730,8 @@ const Mainpage = () => {
                     </div>
                 </div>
             </section>
+
+
 
 
         </>
