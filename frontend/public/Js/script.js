@@ -155,16 +155,16 @@ $(function () {
 
 // sidebar sticky css
 $(function () {
-  let navbar = document.getElementById('main_navbar').classList
-  let active_class = "navbar_scrolled"
+  let navbar = document.getElementsByClassName('MainHaeder')[0]; // Specify the index
+  let active_class = "navbar_scrolled";
 
   window.addEventListener('scroll', e => {
-  if(pageYOffset > 80) navbar.add(active_class)
-  else navbar.remove(active_class)
-  })
-})
+    if (window.pageYOffset > 80) {
+      navbar.classList.add(active_class);
+    } else {
+      navbar.classList.remove(active_class);
+    }
+  });
+});
 
-
-// category mobile js
-
-
+ 

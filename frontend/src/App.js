@@ -2,6 +2,7 @@ import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import Mainpage from './Components/Mainpage';
 import './Components/Style/style.css';
+import PopupForm from './Components/PopupForm';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Mainpage/>}/>
+        <Route path='/popup' element={<PopupForm/>}/>
       </Routes>
     </>
   );

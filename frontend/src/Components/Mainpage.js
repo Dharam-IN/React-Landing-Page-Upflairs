@@ -16,10 +16,12 @@ import student from '../images/student.png';
 import employee from '../images/employee.png';
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
+import PopupForm from "./PopupForm";
 
 const Mainpage = () => {
     return (
         <>
+            <PopupForm/>
             <Navbar />
             <Banner />
             <section className="upSkillSec">
@@ -40,7 +42,6 @@ const Mainpage = () => {
                     </div>
                 </div>
             </section>
-
 
             {/* Register Fees */}
             <section className="RegisterFeesSec">
