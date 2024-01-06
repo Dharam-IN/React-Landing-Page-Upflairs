@@ -15,6 +15,7 @@ import fresher from '../images/fresher1.png';
 import student from '../images/student.png';
 import employee from '../images/employee.png';
 import { NavLink } from "react-router-dom";
+import Footer from "./Footer";
 
 const Mainpage = () => {
     return (
@@ -884,8 +885,8 @@ const Mainpage = () => {
                 </div>
             </section>
 
-
-
+            {/* Footer */}
+            <Footer/>
 
         </>
     )

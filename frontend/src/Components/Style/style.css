@@ -1060,11 +1060,102 @@ section.RegisterFeesSec .RegisterFeesBtn {
 
 
 /* Navbar Css */
+.navbar-mobile-menu {
+  position: relative;
+  width: 37px !important;
+  height: 30px !important;
+  background-color: #0000;
+  display: inline-block;
+  padding-bottom: 16px;
+  border-top: 2px solid #fff;
+  transition: all 0.6s ease;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-mobile-menu::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  height: 2px;
+  background-color: transparent;
+  border-top: 2px solid #fff;
+  margin-top: 6px;
+  transition: all 0.6s ease;
+}
+.navbar-mobile-menu::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 2px;
+  background-color: transparent;
+  border-top: 2px solid #fff;
+  margin-bottom: 11px;
+  transition: all 0.6s ease;
+}
+.menuEffact.clickEffect::before {
+  transform: rotateZ(47deg);
+  width: 63%;
+  margin: 16px 0;
+}
+.menuEffact.clickEffect::after {
+  transform: rotateZ(141deg);
+  width: 63%;
+  margin: 10px 0px;
+}
+.menuEffact.clickEffect {
+  border-top: 2px solid transparent;
+  transform: rotateZ(87deg);
+}
 header#main_navbar {
   background-color: #003366 !important;
 }
 .MainHaeder .collapse ul li.nav-item > a,.MainHaeder .collapse ul li.nav-item button {
   color: #fff;
+  position: relative;
+}
+.MainHaeder .collapse ul li.nav-item > a:after,.MainHaeder .collapse ul li.nav-item button:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #FF9416;
+  height: 1px;
+  transition: all 0.6s ease;
+}
+.MainHaeder .collapse ul li.nav-item > a:hover:after,.MainHaeder .collapse ul li.nav-item button:hover:after{
+  width: 100%;
+}
+.MainHaeder .collapse ul li.nav-item > a.active:after{
+  width: 100%;
+}
+.MainHaeder .collapse ul li.nav-item > a {
+  padding: 5px 2px;
+}
+
+.MainHaeder .collapse ul li.nav-item {
+  padding: 0 15px;
+}
+.MainHaeder .collapse ul li.nav-item > a.active{
+  color: #FF9416 ;
+}
+.MainHaeder .collapse ul li.nav-item > a:hover,.MainHaeder .collapse ul li.nav-item button:hover{
+  color: #FF9416 ;
+}
+#DropdownButton i {
+  transition: all 0.6s;
+  font-size: 14px;
+}
+.arrowRotate i{
+  transform: rotate(180deg);
 }
 .MainHaeder .navbar-brand img {
   width: 150px;
@@ -1131,7 +1222,7 @@ header#main_navbar {
   text-decoration: none;
 }
 .NavbarDropdown .DropdownMenu>li a:hover {
-  background: #ebeef0;
+  background: #ff92165d;
   color: #212529;
 }
 
@@ -1154,4 +1245,94 @@ to {
   opacity: 1;
   top: 0;
 }
+}
+
+
+/* Footer Css */
+
+.MainFooter {
+  background-color: #151515;
+  padding: 60px 0 40px;
+  margin-top: 60px;
+}
+.MainFooter ul {
+  list-style: none;
+  padding: 0;
+}
+.MainFooter .footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.MainFooter .footer-col h4 {
+	font-size: 18px;
+	color: #FFF;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.MainFooter .footer-col h4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #FF9416;
+	width: 50px;
+	height: 2px;
+}
+
+.MainFooter .footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.MainFooter .footer-col ul li a {
+	color: #fff;
+	display: block;
+	font-size: 1rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.MainFooter .footer-col ul li a:hover {
+	color: #FFF;
+	padding-left: 7px;
+}
+
+.MainFooter .footer-col .social-links a {
+	color: #FFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 10px 10px 0;
+	line-height: 40px;
+	transition: all 0.5s ease;
+}
+
+.MainFooter .footer-col .social-links a:hover {
+	color: #151515;
+	background-color: #FFF;
+}
+.FooterCopyright {
+  color: #fff;
+  text-align: center;
+  margin-top: 25px;
+}
+@media(max-width: 767px) {
+	.MainFooter .footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.MainFooter .footer-col {
+		width: 100%;
+	}
 }

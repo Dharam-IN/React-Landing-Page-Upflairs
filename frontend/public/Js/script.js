@@ -135,6 +135,7 @@ $(function () {
 $(function () {
   // Add class on button click
   $("#DropdownButton").on('click', function () {
+    $(this).toggleClass('arrowRotate')
     $("#DropdownUL").toggleClass('DropDownOpen');
   });
 
@@ -142,8 +143,14 @@ $(function () {
   $("body").on('click', function (event) {
     if (!$(event.target).closest("#DropdownButton").length) {
       $("#DropdownUL").removeClass('DropDownOpen');
+      $("#DropdownButton").removeClass('arrowRotate');
     }
   });
+
+  $('#mainmenu').on('click', function(){
+    $(this).toggleClass('clickEffect')
+  })
+
 });
 
 // sidebar sticky css
