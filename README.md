@@ -1,6 +1,6 @@
 # React-Landing-Page-Upflairs
 
-This project demonstrates a basic login and register page using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
+This project demonstrates a basic Landing page using the React (MongoDB, Express.js, React.js, Node.js) stack.
 
 ## Overview
 
