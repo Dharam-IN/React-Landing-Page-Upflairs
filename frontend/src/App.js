@@ -10,7 +10,6 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Mainpage/>}/>
-        <Route path='/popup' element={<PopupForm/>}/>
       </Routes>
     </>
   );

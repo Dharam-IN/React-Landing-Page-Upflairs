@@ -21,7 +21,7 @@ import PopupForm from "./PopupForm";
 const Mainpage = () => {
     return (
         <>
-            <PopupForm/>
+            <PopupForm />
             <Navbar />
             <Banner />
             <section className="upSkillSec">
@@ -34,7 +34,7 @@ const Mainpage = () => {
                         </div>
                         <div className="col-md-6 col-12">
                             <div className="upSkillCon">
-                                <h4 className="headings borderNone">Upskill with Hack2skill</h4>
+                                <h4 className="headings borderNone">Upskill with Upflairs</h4>
                                 <p>Upflairs Advanced Skill Development Program, offering the Best in segment curriculum to help you in becoming a Pro with Live Project Exposure.</p>
                                 <button class="MainButton" type='button'>Start Your Journy Now</button>
                             </div>
@@ -212,14 +212,49 @@ const Mainpage = () => {
                 </div>
             </section>
 
+            {/* Upcoming Masterclass */}
+            <section className="UpcomingMasterclass">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 className="headings text-center">Upcoming Masterclass</h2>
+                        </div>
+                    </div>
+                    <div className="row align-items-center gy-4">
+                        <div className="col-md-6 col-12">
+                            <div className="UpMasCon">
+                                <h4>Register For <b>Superfast Author</b> Masterclass</h4>
+                                <button type="button" className="MainButton AnimateButton">Register Now</button>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="UpMasBtns">
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <h6>Saturday | 13 Jan 2024</h6>
+                                </button>
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <h6>10 AM IST (India)</h6>
+                                </button>
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-video"></i>
+                                    <h6>Google Meet</h6>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* call to action */}
             <section className="CTA_Section">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
                             <div className="CTA_Content">
-                                <h4>Want to organize HACKATHON?</h4>
-                                <p>Connect with us for organizing a HACKATHON on our platform.</p>
+                                <h4>Want to organize Upflairs?</h4>
+                                <p>Connect with us for organizing a Upflairs on our platform.</p>
                                 <button type="button" className="MainButton">Contact Us</button>
                             </div>
                         </div>
@@ -360,41 +395,6 @@ const Mainpage = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Upcoming Masterclass */}
-            <section className="UpcomingMasterclass">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <h2 className="headings text-center">Upcoming Masterclass</h2>
-                        </div>
-                    </div>
-                    <div className="row align-items-center gy-4">
-                        <div className="col-md-6 col-12">
-                            <div className="UpMasCon">
-                                <h4>Register For <b>Superfast Author</b> Masterclass</h4>
-                                <button type="button" className="MainButton">Register Now</button>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-12">
-                            <div className="UpMasBtns">
-                                <button type="button" className="ICNBTNS">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <h6>Saturday | 13 Jan 2024</h6>
-                                </button>
-                                <button type="button" className="ICNBTNS">
-                                    <i class="fa-solid fa-clock"></i>
-                                    <h6>10 AM IST (India)</h6>
-                                </button>
-                                <button type="button" className="ICNBTNS">
-                                    <i class="fa-solid fa-video"></i>
-                                    <h6>Google Meet</h6>
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -887,7 +887,7 @@ const Mainpage = () => {
             </section>
 
             {/* Footer */}
-            <Footer/>
+            <Footer />
 
         </>
     )
