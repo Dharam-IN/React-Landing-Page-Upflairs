@@ -2,14 +2,21 @@ $(document).ready(function () {
   $('.CourseCarousel').owlCarousel({
     loop: true,
     margin: 30,
-    nav: false,
+    nav: true,
     dots: true,
+    slideTransition: 'linear',
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplaySpeed: 2000,
+    autoplayHoverPause: true,
+    navText: ['<span class="custom-prev-btn">&#x2190;</span>', '<span class="custom-next-btn">&#x2192;</span>'],
     responsive: {
       0: {
         items: 1
       },
       600: {
-        items: 2
+        items: 2,
+        nav: false,
       },
       1000: {
         items: 4
@@ -25,7 +32,11 @@ $(document).ready(function () {
     margin: 20,
     dots: true,
     nav: false,
+    slideTransition: 'linear',
     autoplay: true,
+    autoplayTimeout: 2000,
+    autoplaySpeed: 2000,
+    autoplayHoverPause: true,
     autoplayTimeout: 1500,
     responsive: {
       0: {
@@ -52,6 +63,11 @@ $(document).ready(function () {
     margin: 10,
     nav: true,
     dots: false,
+    autoplay: true,
+    autoplayTimeout: 2500,
+    slideTransition: 'linear',
+    autoplaySpeed: 2000,
+    // autoplayHoverPause: true,
     navText: ['<span class="custom-prev-btn">&#x2190;</span>', '<span class="custom-next-btn">&#x2192;</span>'],
     responsive: {
       0: {

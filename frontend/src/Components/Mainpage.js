@@ -14,6 +14,9 @@ import Teacher1 from '../images/teacher1.jpeg';
 import fresher from '../images/fresher1.png';
 import student from '../images/student.png';
 import employee from '../images/employee.png';
+import AkashSir from '../images/akash_sir.jpeg';
+import VinodSir from '../images/vinod_sir.jpeg';
+import RanjeetSir from '../images/Ranjeet_Sir.jpg';
 import { NavLink } from "react-router-dom";
 import Footer from "./Footer";
 import PopupForm from "./PopupForm";
@@ -401,6 +404,63 @@ const Mainpage = () => {
                 </div>
             </section>
 
+            {/* Why choose us */}
+            <section className="WhyChooseSec">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 class="headings text-center">Why Choose Us</h2>
+                        </div>
+                    </div>
+                    <div className="row gy-5">
+                        <div className="col-md-6 col-12">
+                            <div className="WhyChooseDiv">
+                                <div className="Fir">
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Best Teachers</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="WhyChooseDiv">
+                                <div className="Fir">
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Best Teachers</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="WhyChooseDiv">
+                                <div className="Fir">
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Best Teachers</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="WhyChooseDiv">
+                                <div className="Fir">
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Best Teachers</h3>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Who Can Join */}
             <section className="WhoJoinSec">
                 <div className="container">
@@ -613,6 +673,75 @@ const Mainpage = () => {
                                         className="img-responsive"
                                         alt="client-logo"
                                     />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Our Expert Trainers */}
+            <section className="ExpTrainSec">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h2 class="headings text-center">Our Expert Trainers</h2>
+                        </div>
+                    </div>
+                    <div className="row gy-5">
+                        <div className="col-md-6 col-12">
+                            <div className="TeamDiv">
+                                <div className="Fir">
+                                    <div className="imgDiv">
+                                        <img src={VinodSir} alt="teacher img" />
+                                    </div>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Vinod Kumar</h3>
+                                    <h6>Full Stack Developer</h6>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="TeamDiv">
+                                <div className="Fir">
+                                    <div className="imgDiv">
+                                        <img src={AkashSir} alt="teacher img" />
+                                    </div>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Akash Gaur</h3>
+                                    <h6>DevOps Engineer</h6>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="TeamDiv">
+                                <div className="Fir">
+                                    <div className="imgDiv">
+                                        <img src={RanjeetSir} alt="teacher img" />
+                                    </div>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Ranjeet Singh</h3>
+                                    <h6>Machine Learning & AI</h6>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="TeamDiv">
+                                <div className="Fir">
+                                    <div className="imgDiv">
+                                        <img src={Teacher1} alt="teacher img" />
+                                    </div>
+                                </div>
+                                <div className="Sec">
+                                    <h3>Ajay Kumar</h3>
+                                    <h6>Full Stack Developer</h6>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
                                 </div>
                             </div>
                         </div>

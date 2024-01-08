@@ -767,6 +767,34 @@ section.UpcomingMasterclass {
 .UpcomingMasterclass .UpMasBtns .ICNBTNS i {
   color: #ff9416;
 }
+.CourseSlide .owl-nav button {
+  border: 2px solid rgb(59, 59, 59) !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 35%;
+  transform: translate(-50%);
+}
+.owl-nav button:hover{
+  background-color: #003366 !important;
+}
+.owl-dots .owl-dot.active span{
+  background-color: #003366 !important;
+}
+.owl-dots .owl-dot span{
+  background-color: #93bae2 !important;
+}
+.CourseSlide .owl-nav button.owl-prev {
+  left: -29px;
+}
+.CourseSlide .owl-nav button.owl-next {
+  right: -80px !important;
+}
+.CourseSlide .owl-nav button span {
+  font-size: 25px;
+  line-height: 24px;
+}
 
 /* FUTURE MASTER CLASS */
 .FutureMasterSec{
@@ -944,6 +972,85 @@ section.RegisterFeesSec .RegisterFeesBtn {
   margin-top: 40px;
 }
 
+/* Why Choose Us */
+section.WhyChooseSec {
+  padding-bottom: 50px;
+}
+.WhyChooseSec .WhyChooseDiv {
+  display: flex;
+  column-gap: 20px;
+  border: 1px solid #c7c7c7;
+  padding: 15px;
+  border-radius: 5px;
+}
+.WhyChooseSec .WhyChooseDiv:hover{
+  background-color: #f8f8f8;
+}
+.WhyChooseSec .WhyChooseDiv .Fir i {
+  font-size: 20px;
+  background-color: #003366;
+  padding: 15px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.WhyChooseSec .WhyChooseDiv .Sec h3 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.WhyChooseSec .WhyChooseDiv .Sec p {
+  font-size: 16px;
+}
+
+/* Expert Trainer Css */
+.ExpTrainSec .TeamDiv {
+  display: flex;
+  column-gap: 30px;
+  padding: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.ExpTrainSec .TeamDiv .Fir .imgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.ExpTrainSec .TeamDiv .Fir .imgDiv {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.ExpTrainSec .TeamDiv .Sec h3 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.ExpTrainSec .TeamDiv .Sec p {
+  font-size: 16px;
+}
+.ExpTrainSec .TeamDiv .Sec h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff9438;
+  position: relative;
+  margin-bottom: 18px;
+}
+.ExpTrainSec .TeamDiv .Sec h6::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 50px;
+  height: 1px;
+  background-color: #ff9438;
+}
+
 
 /* RESPONSIVE */
 @media screen and (max-width: 992px){
@@ -1003,6 +1110,7 @@ section.RegisterFeesSec .RegisterFeesBtn {
   .UpcomingMasterclass .UpMasBtns .ICNBTNS{
     width: 80%;
   }
+
   section.client-section {
     padding: 30px 0;
     margin-bottom: 30px;

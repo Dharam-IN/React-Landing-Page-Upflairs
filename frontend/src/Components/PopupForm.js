@@ -57,7 +57,7 @@ const PopupForm = () => {
                                         />
                                     <div className="serSel">
                                         <select>
-                                            <option value="Null">Services</option>
+                                            <option value="Null">Courses</option>
                                             <option value="Brooklyn">Full Stack</option>
                                             <option value="Manhattan">Machine Learning & AI</option>
                                             <option value="Queens">DevOps</option>
