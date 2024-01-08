@@ -75,6 +75,23 @@ section.bannerSec::before {
     z-index: -1;
     background-position: right;
 }
+.upSkillSec{
+  position: relative;
+}
+section.upSkillSec::before {
+  content: "";
+  background-image: url("../../images/Education-BG.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-position: right;
+}
 
 .upSkillSec .upSkillImg img {
     width: 70%;
@@ -1579,3 +1596,89 @@ button.close.close-button span {
   padding: 0px 1em;
   transition: all 0.25s ease 0s;
 }
+
+
+/* Full stack CSS */
+.FullStackBanner::before{
+  display: none;
+}
+.OverviewSec{
+  padding: 50px 0;
+  position: relative;
+}
+.OverviewSec::before{
+    content: "";
+    background-image: url("../../images/Education-BG.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-position: right;
+}
+.OverViewHeading {
+  font-size: 25px;
+  font-weight: 700;
+}
+.OverviewSec .OverviewMainDiv h4.OverViewHeading {
+  margin-bottom: 20px;
+}
+.OverviewSec .OverviewCon p {
+  font-size: 16px;
+}
+.OverviewSec .OverviewMainDiv ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.OverviewSec .OverviewMainDiv ul li {
+  width: 48%;
+  display: flex;
+  column-gap: 20px;
+  background: #d7e8f94a;
+  padding: 15px;
+}
+.OverviewSec .OverviewMainDiv ul li .check i {
+  color: #00bd01;
+  font-size: 20px;
+}
+.OverviewSec .OverviewMainDiv ul li .con h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.OverviewSec .OverviewMainDiv ul li .con p {
+  font-size: 15px;
+}
+.TeacherSection {
+  padding: 50px 0;
+  background: #d7e8f94a;
+}
+.TeacherSection .TeacherDiv img {
+  width: 100%;
+}
+
+.TeacherSection .TeacherCon h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.TeacherSection .TeacherCon h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.TeacherSection .TeacherCon p {
+  font-size: 15px;
+}
+.WhyJoin{
+  padding: 50px 0;
+}
+

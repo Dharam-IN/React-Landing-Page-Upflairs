@@ -68,7 +68,7 @@ $(document).ready(function () {
     autoplayTimeout: 2500,
     slideTransition: 'linear',
     autoplaySpeed: 2000,
-    // autoplayHoverPause: true,
+    autoplayHoverPause: true,
     navText: ['<span class="custom-prev-btn">&#x2190;</span>', '<span class="custom-next-btn">&#x2192;</span>'],
     responsive: {
       0: {

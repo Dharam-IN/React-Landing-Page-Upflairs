@@ -2,7 +2,7 @@ import './App.css';
 import {Routes, Route} from 'react-router-dom';
 import Mainpage from './Components/Mainpage';
 import './Components/Style/style.css';
-import PopupForm from './Components/PopupForm';
+import FullStackPage from './Components/FullStackPage';
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Mainpage/>}/>
+        <Route path='/fullstack' element={<FullStackPage/>}/>
       </Routes>
     </>
   );

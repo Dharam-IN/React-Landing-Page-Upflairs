@@ -27,7 +27,7 @@ const Navbar = () => {
                                     </button>
                                     <ul className="DropdownMenu" id="DropdownUL">
                                         <li>
-                                            <NavLink to={""}>
+                                            <NavLink to={"/fullstack"}>
                                                 Full Stack Development
                                             </NavLink>
                                         </li>
