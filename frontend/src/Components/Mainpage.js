@@ -726,7 +726,7 @@ const Mainpage = () => {
                                 </div>
                                 <div className="Sec">
                                     <h3>Ranjeet Singh</h3>
-                                    <h6>Machine Learning & AI</h6>
+                                    <h6>Data Scientist</h6>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi explicabo, sit at iusto repellat quod?</p>
                                 </div>
                             </div>

@@ -12,7 +12,8 @@ $(document).ready(function () {
     navText: ['<span class="custom-prev-btn">&#x2190;</span>', '<span class="custom-next-btn">&#x2192;</span>'],
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        nav: false,
       },
       600: {
         items: 2,

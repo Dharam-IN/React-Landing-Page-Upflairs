@@ -1191,6 +1191,18 @@ section.WhyChooseSec {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 600px){
+  .modalPopUpcontent{
+    width: 80% !important;
+  }
+  .ExpTrainSec .TeamDiv {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  section.bannerSec::before {
+    height: 90%;
+  }
+}
 
 
 /* Navbar Css */
