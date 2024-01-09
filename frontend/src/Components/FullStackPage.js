@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Banner from "../images/Full_Banner.png";
+import Banner from "../images/FullSTackBanner.webp";
 import FullStackTeacher from "../images/FullStackTeacher.png";
 import Footer from "./Footer";
 import PopupForm from "./PopupForm";
@@ -20,8 +20,8 @@ const FullStackPage = () => {
                                 <h3>Learn Fullstack Complate</h3>
                                 <p>Hack2skill is the largest and fastest-growing community of technology innovators, including startups, working professionals, freelancers, and student innovators.</p>
                                 <div className="buttons">
-                                    <button class="MainButton" type='button'>Explore Upflairs</button>
-                                    <button class="MainButton" type='button'>Organize Upflairs</button>
+                                    <button class="MainButton" type='button'>Enroll in Course</button>
+                                    <button class="MainButton" type='button'>Share</button>
                                 </div>
                             </div>
                         </div>
@@ -29,6 +29,39 @@ const FullStackPage = () => {
                             <div className="banner_img">
                                 <img src={Banner} alt="image" />
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* All About Course */}
+            <section className="AllAboutSec">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-3 col-md-6 col-12">
+                            <ul>
+                                <li className="subHeading">Course Type</li>
+                                <li className="heading">Full Stack Development</li>
+                                <li>(MERN)</li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-12">
+                            <ul>
+                                <li className="subHeading">Duration</li>
+                                <li className="heading">2 Hours</li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-12">
+                            <ul>
+                                <li className="subHeading">Starts On</li>
+                                <li className="heading">4th Feb'24</li>
+                            </ul>
+                        </div>
+                        <div className="col-lg-3 col-md-6 col-12">
+                            <ul>
+                                <li className="subHeading">Language</li>
+                                <li className="heading">Hindi</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -91,69 +124,7 @@ const FullStackPage = () => {
                 </div>
             </section>
 
-            {/* Join Masterclass */}
-
-            {/* Join Masterclass */}
-            <section className="UpcomingMasterclass">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <h2 className="headings text-center">Join Masterclass</h2>
-                        </div>
-                    </div>
-                    <div className="row align-items-center gy-4">
-                        <div className="col-md-6 col-12">
-                            <div className="UpMasCon">
-                                <h4>Register For <b>Superfast Author</b> Masterclass</h4>
-                                <button type="button" className="MainButton AnimateButton">Register Now</button>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-12">
-                            <div className="UpMasBtns">
-                                <button type="button" className="ICNBTNS">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <h6>Saturday | 13 Jan 2024</h6>
-                                </button>
-                                <button type="button" className="ICNBTNS">
-                                    <i class="fa-solid fa-clock"></i>
-                                    <h6>10 AM IST (India)</h6>
-                                </button>
-                                <button type="button" className="ICNBTNS">
-                                    <i class="fa-solid fa-video"></i>
-                                    <h6>Google Meet</h6>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Teacher Section */}
-            <section className="TeacherSection">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <h2 class="headings text-center">Who Is Your Mentor</h2>
-                        </div>
-                    </div>
-                    <div className="row align-items-center">
-                        <div className="col-md-4 col-12">
-                            <div className="TeacherDiv">
-                                <img src={FullStackTeacher} alt="Full Stack" />
-                            </div>
-                        </div>
-                        <div className="col-md-8 col-12">
-                            <div className="TeacherCon">
-                                <h3>Krishna Singh</h3>
-                                <h5>5+ Years Experience</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio maxime corporis at consequuntur esse quidem dolor debitis soluta quasi repellendus laborum optio ea rerum incidunt expedita illum excepturi veniam, eos tempora accusamus. Dolore perferendis alias harum voluptatibus numquam inventore, iste quaerat, iure enim quod necessitatibus laborum quis ipsam tempora!</p>
-                                <button type="button" class="MainButton">Read More</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            
             {/* Why Join */}
             <section className="WhyChooseSec WhyJoin">
                 <div className="container">
@@ -211,28 +182,61 @@ const FullStackPage = () => {
                 </div>
             </section>
 
-            {/* Register Fees */}
-            <section className="RegisterFeesSec">
+            {/* Join Masterclass */}
+            <section className="UpcomingMasterclass">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h2 className="headings text-center">Online Webinar Fees</h2>
+                            <h2 className="headings text-center">Join Masterclass</h2>
                         </div>
                     </div>
+                    <div className="row align-items-center gy-4">
+                        <div className="col-md-6 col-12">
+                            <div className="UpMasCon">
+                                <h4>Register For <b>Superfast Author</b> Masterclass</h4>
+                                <button type="button" className="MainButton AnimateButton">Register Now</button>
+                            </div>
+                        </div>
+                        <div className="col-md-6 col-12">
+                            <div className="UpMasBtns">
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <h6>Saturday | 13 Jan 2024</h6>
+                                </button>
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <h6>10 AM IST (India)</h6>
+                                </button>
+                                <button type="button" className="ICNBTNS">
+                                    <i class="fa-solid fa-video"></i>
+                                    <h6>Google Meet</h6>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Teacher Section */}
+            <section className="TeacherSection">
+                <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="RegisterCol">
-                                <ul>
-                                    <li>
-                                        <p className="fees">Fees = 1099</p>
-                                    </li>
-                                    <li>
-                                        <p className="freeFees">Free</p>
-                                    </li>
-                                </ul>
+                            <h2 class="headings text-center">Who Is Your Mentor</h2>
+                        </div>
+                    </div>
+                    <div className="row align-items-center">
+                        <div className="col-md-4 col-12">
+                            <div className="TeacherDiv">
+                                <img src={FullStackTeacher} alt="Full Stack" />
                             </div>
-                            <div className="RegisterFeesBtn text-center">
-                                <button type="button" className="MainButton">Register For Online Masterclass</button>
+                        </div>
+                        <div className="col-md-8 col-12">
+                            <div className="TeacherCon">
+                                <h3>Krishna Singh</h3>
+                                <h5>5+ Years Experience</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam distinctio maxime corporis at consequuntur esse quidem dolor debitis soluta quasi repellendus laborum optio ea rerum incidunt expedita illum excepturi veniam, eos tempora accusamus. Dolore perferendis alias harum voluptatibus numquam inventore, iste quaerat, iure enim quod necessitatibus laborum quis ipsam tempora!</p>
+                                <button type="button" class="MainButton">Read More</button>
                             </div>
                         </div>
                     </div>
