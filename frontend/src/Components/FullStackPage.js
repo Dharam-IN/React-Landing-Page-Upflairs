@@ -37,7 +37,7 @@ const FullStackPage = () => {
             {/* All About Course */}
             <section className="AllAboutSec">
                 <div className="container">
-                    <div className="row">
+                    <div className="row gy-4">
                         <div className="col-lg-3 col-md-6 col-12">
                             <ul>
                                 <li className="subHeading">Course Type</li>
@@ -71,13 +71,13 @@ const FullStackPage = () => {
             <section className="OverviewSec">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-5 col-12">
+                        <div className="col-lg-5 col-12">
                             <div className="OverviewCon">
                                 <h4 className="OverViewHeading">Overview</h4>
                                 <p>Full Stack is an interdisciplinary field that combines techniques from statistics, computer science, and domain knowledge to extract valuable insights, patterns, and knowledge from data. It encompasses a wide range of activities, from data collection and preprocessing to advanced analysis and modeling. Data science is driven by the need to make data-driven decisions, solve complex problems, and generate actionable information from vast and varied datasets.</p>
                             </div>
                         </div>
-                        <div className="col-md-7 col-12">
+                        <div className="col-lg-7 col-12">
                             <div className="OverviewMainDiv">
                                 <h4 className="OverViewHeading">What You Will Learn</h4>
                                 <ul>
